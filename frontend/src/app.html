@@ -1,1 +1,67 @@
+<template>  
+  <require from="../styles/css/custom.css"></require>
+  <require from="../styles/css/panels.css"></require>
+  <require from="../styles/css/topNavbar.css"></require>
+  <require from="../styles/css/socialMediaNav.css"></require>
+  <require from="../styles/css/animate.css"></require>
+  <require from="../styles/css/ui-elements.css"></require>
+  <require from="../styles/css/color-styles.css"></require>
+  <require from="../styles/css/flipperLogin.css"></require>
+  <require from="../styles/css/editAdmin.css"></require>
+
+  <!-- <require from="sidebarMenu.html"></require> -->
+  <require from="noSidebarMenu.html"></require>
+
+  <require from="top-navigation.html"></require>
+  <!--<top-navigation></top-navigation> -->
+
+  <loading-indicator loading.bind="router.isNavigating"></loading-indicator>
+
+    <div class="container body">
+      <div class="main_container">
+        <div show.bind="loggedIn & throttle:850">
+          <div class="col-md-3 left_col menu_fixed">
+            <!-- <sidebarMenu></sidebarMenu> -->
+            <compose view-model="./sidebarMenu"></compose>
+          </div>
+        </div>
+      
+
+      <div show.bind="!loggedIn & throttle:850">
+        <div class="col-md-3 left_col">
+          <noSidebarMenu></noSidebarMenu>
+        </div>
+      </div>
+
+     <!-- page content -->
+      <div class="right_col" role="main">         
+        <router-view>
+
+          <div show.bind="loggedIn & throttle:850">
+            <div class="navbar-collapse collapse nav-pad">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a class="breadcrumb-color" href="#/landingPage">Home</a></li>
+                <li class="breadcrumb-item"><a class="breadcrumb-color" href="#/userHome">UserPage</a></li>
+                <li class="breadcrumb-item"><a class="breadcrumb-color" href="#" click.delegate=logout()><span class="glyphicon glyphicon-log-out"></span> Logout </a></li>
+            </ol>
+            <hr style="border-color:black">
+            </div>
+          </div>
+          
+        </router-view>
+      </div>
+      <!-- /page content -->
+      <!--
+      <div class="navbar navbar-footer navbar-fixed-bottom">
+        <div class="container">
+          <p class="navbar-text pull-left">© 2017 - Site Built By Drew Marchione
+          </p>
+          
+          <a href="https://www.linkedin.com/in/drew-marchione-60351a102/" class="navbar-btn btn-success btn pull-right">
+          <span class="glyphicon glyphicon-star"></span>  Check out my LinkedIn</a>
+        </div>
+      </div> -->
+    </div>
+    </div>
+</template>
 
