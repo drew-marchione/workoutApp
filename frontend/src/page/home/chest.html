@@ -1,0 +1,38 @@
+<template>
+    <div class="">
+        <div class="container-fluid inner-container-chest">
+            <div class="container container-pad" id="property-listings">
+                <p class="workout-title" style="font-size:18px;text-align:center;padding-bottom:10px;">Click the customize button to add an exercise to your workout!</p>
+                <div class="row">
+                    <div repeat.for="chest of chestExercises">
+                        <div class="col-md-12">
+                            <div class="panel-properties box-shad property-listing">
+                                <div class="media">
+                                    <div class="pull-left" target="_parent">
+                                        <iframe id="youTubeVideoPlayer" title="YouTube video player" class="youtube-player center-block" type="text/html" width="350" height="200" src=${chest.videoLink} frameborder="0" allowFullScreen>
+                                        </iframe>
+                                    </div>
+                                    <div class="clearfix visible-sm"></div>
+                                    <div class="media-body fnt-smaller">
+                                        <h4 class="media-heading panel-text">
+                                            <div class="text-center" target="_parent">${chest.name}</div>
+                                        </h4>
+                                        <h3 class="text-center">
+                                            <small class="panel-text">Muscle Groups: ${chest.exerciseType}</small>
+                                        </h3>
+                                        <p class="hidden-xs panel-text text-center">${chest.description}</p>
+                                        <br>
+                                        <div class="text-center">
+                                        <button type="button" click.delegate=add(chest.name) class="btn btn-primary">Customize</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br>
+            </div>
+        </div>
+    </div>
+</template>

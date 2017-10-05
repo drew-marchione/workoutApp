@@ -1,0 +1,76 @@
+<template>
+    <div class="gradient page-padding fix">
+        <div class="container-fluid">
+            <nav class="navbar navbar-default navbar-trans" role="navigation">
+                <div class="navbar-header">  
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li style="font-weight:300;font-size:44px;font-family:sans-serif;color:black;text-shadow: 9px 9px 9px rgba(150, 150, 150, 1);"></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-center">
+                        <li style="font-weight:300;font-size:44px;font-family:sans-serif;color:black;text-shadow: 9px 9px 9px rgba(150, 150, 150, 1);">YouFit</li>
+                    </ul>
+                    <ul class="navbar-collapse login-margin" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <ul class="list-inline social hidden-sm">
+                                <li><a href="https://twitter.com/fitbit" target="_blank" class="twitter "><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.facebook.com/fitbit/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.pinterest.com/fitbit/" target="_blank" class="pinterest"><i class="fa fa-pinterest"></i></a></li>
+                                <li><a href="https://www.instagram.com/fitbit/" target="_blank" class="instgram"><i class="fa fa-instagram"></i></a></li>
+                            </ul>          
+                        </ul>
+                    </ul>
+                </div>
+            </nav>
+            <br><br>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="flip">
+                        <div class="card"> 
+                            <div class="face front"> 
+                                <div class="panel panel-default login-box-shad">
+                                    <form class="form-horizontal">
+                                        <h3 class="text-center login">Sign In</h3>
+                                        <br>          
+                                        <input value.bind="loginUsername" class="form-control" placeholder="Username"/>
+                                        <input value.bind="loginPassword" class="form-control" type="password" placeholder="Password"/>
+                                        <p class="login"><a class="blue-text" href="">Forgot Password</a></p>
+                                        <button click.delegate=login() class="btn btn-primary btn-block btn-round">LOG IN</button>
+                                        <hr>
+                                        <p class="blue-text login">Sign in with</p>
+                                        <p class="login"><a href="https://www.facebook.com"><i class="fa fa-color fa-facebook-f fa-lg margins"></i></a><a href="https://www.twitter.com"><i class="fa fa-color fa-twitter fa-twitter-login fa-lg margins"></i></a></p>
+                                        <hr>
+                                        <p class="text-center login">
+                                        <button class="btn-flip"><a click.delegate=flipper() class="fliper-btn blue-text">Create new account?</a></button>
+                                        </p>
+                                    </form>
+                                </div>
+                            </div> 
+                            <div class="face back"> 
+                                <div class="panel panel-default login-box-shad">
+                                    <form class="form-horizontal">    
+                                        <h3 class="text-center login">Sign Up</h3>
+                                        <br>
+                                        <input value.bind="signUpFirstname" class="form-control" placeholder="First Name"/>
+                                        <input value.bind="signUpLastname"class="form-control" placeholder="Last Name"/>
+                                        <input value.bind="signUpUsername" class="form-control" placeholder="Username"/>
+                                        <input value.bind="signUpPassword" class="form-control" type="password" placeholder="Password"/>
+                                        <br>
+                                        <button click.delegate=signUp() class="btn btn-primary btn-block btn-round">SIGN UP</button>
+                                        <hr>
+                                        <p class="text-center">
+                                        <button class="btn-flip"><a click.delegate=flipper() class="fliper-btn blue-text">Already have an account?</a></button>
+                                        </p> 
+                                    </form>
+                                </div> 
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    </div>
+</template>

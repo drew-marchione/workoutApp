@@ -1,0 +1,43 @@
+<template>
+    <div style="padding: 0px 200px;" class="page-padding">
+       <div class="container">  
+          <center><h3 style="color:black;font-size:28px;">Delete Exercise</h3></center>
+            <br>
+            <form class="f-background">
+              <label for="muscleGroup">Select Muscle Group (select one):</label>
+                <select class="form-control" value.bind=muscleGroup id="muscleGroup" name="muscleGroup">
+                  <option>Chest</option>
+                  <option>Shoulders</option>
+                  <option>Back</option>
+                  <option>Triceps</option>
+                  <option>Biceps</option>
+                  <option>Quads</option>
+                  <option>Hamstrings</option>
+                  <option>Glutes</option>
+                  <option>Calves</option>
+                </select>
+                <center><button click.delegate=getExercises(muscleGroup) type="submit" class="btn btn-default">Submit</button></center>
+            </form>
+            <br>
+            <div class="row">
+                <div repeat.for="exercise of exercises">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="panel-body">
+                            <ul id="ulist" class="list-group">
+                                <li class="list-group-item">
+                                    <div class="checkbox">
+                                        <div style="font-size:14px;" class="text-center" target="_parent">${exercise.name}</div>
+                                    </div>
+                                    <div class="pull-right action-buttons">
+                                        <a click.delegate=delete(exercise.name)><span style="font-size:18px;" class="glyphicon glyphicon-trash"></span></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <br><br>
+    </div>
+</template>
+     

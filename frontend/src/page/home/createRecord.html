@@ -1,0 +1,36 @@
+<template>
+    <div style="padding: 0px 200px;" class="page-padding">
+       <div class="container">
+          <center><h3 style="color:black;font-size:28px;">Create Exercise</h3></center>
+          <br>
+          <form class="f-background">
+            <label for="muscleGroup">Select Muscle Group (select one):</label>
+              <select class="form-control" value.bind=muscleGroup id="muscleGroup" name="muscleGroup">
+                <option>Chest</option>
+                <option>Shoulders</option>
+                <option>Back</option>
+                <option>Triceps</option>
+                <option>Biceps</option>
+                <option>Quads</option>
+                <option>Hamstrings</option>
+                <option>Glutes</option>
+                <option>Calves</option>
+              </select>
+            <div class="form-group">
+              <label for="exerciseName">Exercise Name:</label>
+              <input class="form-control" value.bind=exerciseName id="exerciseName" placeholder="Exercise Name" name="exerciseName" required>
+            </div>
+            <div class="form-group">
+              <label for="videoLink">Video Link:</label>
+              <input class="form-control" value.bind=videoLink id="videoLink" placeholder="Video Link" name="videoLink" required>
+            </div>
+            <div class="form-group">
+              <label for="description">Exercise Description:</label>
+              <textarea class="form-control" value.bind=description rows="5" id="description" required></textarea>
+            </div>
+            <center><button click.delegate=adminCreate() type="submit" class="btn btn-default">Submit</button></center>
+          </form>
+        </div>
+    </div>
+</template>
+     

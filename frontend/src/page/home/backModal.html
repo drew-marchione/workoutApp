@@ -1,0 +1,22 @@
+<template>
+   <ux-dialog>
+      <ux-dialog-body>
+            <div class="container">
+                <h3 class="text-center">${backExercise.name}</h3>
+                <div class="form-group">
+                    <label for="sets">Sets:</label>
+                    <input type="sets" class="form-control" id="sets" value.bind="sets" placeholder=0>
+                </div>
+                <div class="form-group">
+                    <label for="reps">Reps:</label>
+                    <input type="reps" class="form-control" id="reps" value.bind="reps" placeholder=0>
+                </div>
+            </div>
+      </ux-dialog-body>
+      <ux-dialog-footer>
+         <button click.trigger = "controller.cancel()">Cancel</button>
+         <button type="submit" click.trigger = "controller.cancel()" click.delegate=submit() class="btn btn-default">Submit</button>
+      </ux-dialog-footer>
+   </ux-dialog>
+</template>
+

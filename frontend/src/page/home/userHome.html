@@ -1,0 +1,47 @@
+<template>
+  <div class="page-padding">
+    <div class="row">
+        <div class="col-md-12">
+          <div class="x_panel">
+            <div class="">
+              <center><h3 style="color:#333333;"> ${firstname}'s Workout:  </h3><center>
+              <p class="panel-text" style="font-size:18px;text-align:center">Use the sidebar menu to add exercises to your workout</p>
+              <div class="clearfix"></div>
+            </div>
+            <div class="x_content">
+              <div style="height:480px">    
+              <br>
+              <div class="row">
+                <div repeat.for="exercise of userSelectedExercises">
+                  <div class="col-md-12">            
+                    <div class="panel-properties box-shad property-listing">
+                      <div class="media">
+                        <div class="pull-left" target="_parent">
+                          <iframe id="youTubeVideoPlayer" title="YouTube video player" class="youtube-player center-block" type="text/html" width="360" height="240" src=${exercise.videoLink} frameborder="0" allowFullScreen>
+                          </iframe>
+                        </div>
+                        <div class="clearfix visible-sm"></div>
+                          <div class="media-body fnt-smaller">
+                            <h4 class="media-heading panel-text">
+                              <div style="color:black;font-size:20px;" class="text-center" target="_parent">${exercise.exerciseName}</div>
+                            </h4>
+                            <h3 class="text-center pan-pad">
+                              <small class="panel-text">Muscle Groups: ${exercise.exerciseType}</small>
+                            </h3>
+                            <p class="hidden-xs text-center panel-text pan-pad">${exercise.exerciseDescription}</p>
+                            <h2 class="text-center panel-text pan-pad"> Sets: ${exercise.exerciseSets} Reps: ${exercise.exerciseReps}</h2>
+                            <div class="text-center"> 
+                              <button style="background-color:#e6f3ff; color: red; border: 2px solid red;" click.delegate=delete(exercise.exerciseName,exercise.exerciseSets,exercise.exerciseReps) type="button" class="btn btn-danger">Delete</button>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br>
+            </div>
+          </div>
+      </div>
+      </div>
+</template>

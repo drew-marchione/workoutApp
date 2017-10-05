@@ -1,0 +1,35 @@
+<template>
+    <ux-dialog>
+        <ux-dialog-body>
+            <div class="container">
+                <h3 class="text-center">${exercise.name}</h3>
+                <br>
+                <div class="form-group">
+                    <label for="Exercise-Name" class="control-label">Exercise Name:</label>
+                    <input id="Exercise-Name" class="form-control" value.bind="exercise.name" value="exercise.name" type="text" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="Muscle-Group" class="control-label">Exercise Type:</label>
+                    <input id="Muscle-Group" class="form-control" value.bind="exercise.exerciseType" value="exercise.exerciseType" type="text" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="Video-Link" class="control-label">Exercise Youtube Link:</label>
+                    <input id="Video-Link" class="form-control" value.bind="exercise.videoLink" value="exercise.videoLink" type="text" disabled>
+                </div>
+                <div>
+                    <iframe id="youTubeVideoPlayer" title="YouTube video player" class="youtube-player center-block" type="text/html" width="350" height="200" src=${exercise.videoLink} frameborder="0" allowFullScreen></iframe>
+                </div>
+                <div class="form-group">
+                    <label for="message-text" class="control-label">Exercise Description:</label>
+                    <textarea class="form-control" id="editDescription" value.bind="exercise.description" disabled>exercise.description</textarea>
+                </div>
+            </div>
+        </ux-dialog-body>
+        <ux-dialog-footer>
+            <center>
+                <button click.trigger = "controller.cancel()">Cancel</button>
+                <button type="submit" click.trigger = "controller.cancel()" click.delegate=confirmDelete() class="btn btn-default">Delete</button>
+            </center>
+        </ux-dialog-footer>
+    </ux-dialog>
+</template>

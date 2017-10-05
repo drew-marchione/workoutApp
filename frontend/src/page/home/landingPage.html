@@ -1,0 +1,68 @@
+<template>
+  <div class="page-padding">
+    <div class="wrapper">
+     <!-- Jumbotron -->
+      <div class="main-slideshow">
+        <div id="main-slideshow" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators" style="margin-bottom: 0">
+            <li data-target="#main-slideshow" data-slide-to="0" class="active"></li>
+            <li data-target="#main-slideshow" data-slide-to="1"></li>
+            <li data-target="#main-slideshow" data-slide-to="2"></li>
+          </ol>
+          <!-- Slide 1 -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="jumbotron first">
+                 <div class="container">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <h1 class="animated slideInLeft">${firstname} ${lastname}, View Your Homepage<br />
+                      </h1>        
+                      <a href="#userHome" class="btn btn-color animated slideInLeft delay-2">Homepage</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <!-- Slide 2 -->
+            <div class="item">
+              <div class="jumbotron second">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <h1 class="animated slideInLeft">Create Your Own Workout!<br />
+                      </h1>
+                      <a href="#/instructions" class="btn btn-color animated slideInLeft delay-2">Get Started!</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <!-- Slide 3 -->
+            <div class="item">
+              <div class="jumbotron third">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <h1 class="animated slideInLeft">Follow Your Favorite Personal Trainers!<br />
+                      </h1>
+                      <a href="#/twitter" class="btn btn-color animated slideInLeft delay-2">LET'S GO!</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Controls -->
+          <a class="slideshow-arrow slideshow-arrow-prev body-lightBlue bg-hover-color" href="#main-slideshow" data-slide="prev">
+            <i class="fa fa-angle-left"></i>
+          </a>
+          <a class="slideshow-arrow slideshow-arrow-next body-lightBlue bg-hover-color" href="#main-slideshow" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+          </a>
+        </div>
+      </div>  <!-- / Slideshow -->
+    </div>
+  </div>
+</template>
