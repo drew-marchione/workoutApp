@@ -62,12 +62,12 @@ export class UpdateRecordModal {
                 //this.publish();
             }
             else if (response.status == 400) {
-                this.notification.error('Update Failed. Please Fill In All Fields!');
+                this.notification.error('Please Fill In All Fields!');
                 console.log("HTTP Status Code", response.status);
                 this.publish();
             }
             else if (response.status == 409) {
-                this.notification.error('Exercise Already Exists! Name Conflict!');
+                this.notification.error('Exercise Name Already Exists!');
                 console.log("HTTP Status Code", response.status);
                 this.publish();
                 //this.restoreExercise();

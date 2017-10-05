@@ -60,21 +60,21 @@ export class CreateRecord extends InnerPage {
                     this.notification.success('Successfully Created Record!');
                 }
                 else if (response.status == 400) {
-                    this.notification.error('Create Failed. Please Fill In All Fields!');
+                    this.notification.error('Please Fill In All Fields!');
                     console.log("HTTP Status Code", response.status)
                 }
                 else if (response.status == 409) {
-                    this.notification.error('Exercise Already Exists! Name Conflict!');
+                    this.notification.error('Exercise Name Already Exists!');
                     console.log("HTTP Status Code", response.status)
                 }
                 else if (response.status == 500) {
-                    this.notification.error('Sign Up Failed.');
+                    this.notification.error('Create Failed.');
                     console.log("HTTP Status Code", response.status)
                 }
             })
             .catch(error => {
                 console.log("Server Error");
-                this.notification.error('Sign Up Failed.');
+                this.notification.error('Create Failed.');
             })
         }
     }
