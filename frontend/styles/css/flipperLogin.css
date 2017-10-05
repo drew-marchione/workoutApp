@@ -1,0 +1,155 @@
+/*
+body{
+    padding-top: 100px;
+}*/
+
+.btn-round {
+	border-radius: 24px;
+}
+
+.btn-flip{
+  border:0px solid transparent; /* this was 1px earlier */
+	background-color: white;
+ }
+
+
+form{
+	padding: 20px;
+	    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 15px 0 rgba(0,0,0,0.12) !important;
+}
+
+.login-color {
+	background-color: lightskyblue;
+}
+
+.login-margin {
+	margin-top: 10px;
+}
+
+.center-align {
+    text-align: center;
+}/*
+.btn{
+	border-radius: 0px;
+}*/
+.form-control{
+	border-radius: 0px;
+	margin-bottom: 10px;
+}
+
+p.login{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	text-align: center;
+	background-color: white;
+}
+
+h3.login {
+	color: black;
+	background-color: white;
+}
+
+.login-box-shad {
+    -webkit-box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.gradient {
+  background: url(../../src/rsz_login-running.jpg) no-repeat center center;
+	background-size: cover;
+  /*max-width: 100%;
+  height: auto;*/
+}
+
+@media (min-width: 768px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+}
+
+.navbar-brand-login
+{
+    position: absolute;
+    width: 100%;
+    left: 100;
+    text-align: center;
+    margin:0 auto;
+}
+.navbar-toggle {
+    z-index:3;
+}
+
+.navbar-trans {
+	background:transparent;
+	border: 0px;
+}
+
+.blue-text{
+	color: #337ab7;
+}
+.fa-color{
+	color: #337ab7;
+}
+.fa-facebook-f{
+	padding: 10px 12px 10px 12px;
+	border: 1px solid #337ab7;
+	border-radius: 50%;
+}
+.fa-google-plus{
+	padding: 10px 8px 10px 8px;
+	border: 1px solid #337ab7;
+	border-radius: 50%;
+}
+.fa-twitter-login{
+	padding: 10px 8px 10px 8px;
+	border: 1px solid #337ab7;
+	border-radius: 50%;
+}
+
+i.margins{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+
+
+.flip {
+  -webkit-perspective: 800;
+perspective: 800;
+
+    position: relative;
+}
+.flip .card.flipped {
+  -webkit-transform: rotatey(-180deg);
+    transform: rotatey(-180deg);
+}
+.flip .card {
+
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: 0.5s;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+}
+.flip .card .face {
+
+  -webkit-backface-visibility: hidden ;
+    backface-visibility: hidden ;
+  z-index: 2;
+   
+}
+.flip .card .front {
+  position: absolute;
+   width: 100%;
+  z-index: 1;
+
+}
+.flip .card .back {
+  -webkit-transform: rotatey(-180deg);
+    transform: rotatey(-180deg);
+}
+  .inner{margin:0px !important;}
+
+  
