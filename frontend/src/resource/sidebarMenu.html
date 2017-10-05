@@ -1,1 +1,102 @@
+<template>
+          <div class="left_col scroll-view">
 
+            <div class="nav toggle" >
+              <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+
+            </div>
+
+            <div class="clearfix"></div>
+ 
+<!-- sidebar menu -->
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+                <ul class="nav side-menu">
+                  <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="#/userHome">Your Workout</a></li>
+                    </ul>
+                  </li>
+                  <li show.bind="adminAccess & throttle:850"><a><i class="fa fa-home"></i> Admin <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="#/createRecord">Create Record</a></li>
+                      <li><a href="#/readRecord">Read Record</a></li>
+                      <li><a href="#/updateRecord">Update Record </a></li>
+                      <li><a href="#/deleteRecord">Delete Record</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-sitemap"></i> Create Workout <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                        <li><a>Upper Body<span class="fa fa-chevron-down"></span></a>
+                          <ul class="nav child_menu">
+                              <li class="sub_menu"><a href="#/chest">Chest</a>
+                              </li>
+                              <li><a href="#/shoulders">Shoulders</a>
+                              </li>
+                              <li><a href="#/back">Back</a>
+                              </li>
+                              <li><a href="#/triceps">Triceps</a>
+                              </li>
+                              <li><a href="#/biceps">Biceps</a>
+                              </li>
+                              <li><a href="#/test">test</a>
+                              </li>
+                          </ul>
+                        </li>
+                        <li><a>Lower Body<span class="fa fa-chevron-down"></span></a>
+                          <ul class="nav child_menu">
+                            <li class="sub_menu"><a href="#/quads">Quads</a>
+                            </li>
+                            <li><a href="#/hamstrings">Hamstrings</a>
+                            </li>
+                            <li><a href="#/glutes">Glutes</a>
+                            </li>
+                            <li><a href="#/calves">Calves</a>
+                            </li>
+                          </ul>
+                        </li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-home"></i> Social Media <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="#/twitter">Twitter</a></li>
+                      <li><a href="#/facebook">Facebook</a></li>
+                      <li><a href="#/instagram">Instagram</a></li>
+                      <li><a href="#/linkedIn">LinkedIn</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                
+              </div>
+              <!--<div class="menu_section">
+                <h3>Live On</h3>
+                <ul class="nav side-menu">
+                  <li><a><i class="fa fa-sitemap"></i> Multilevel Menu <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                        <li><a href="#level1_1">Level One</a>
+                        <li><a>Level One<span class="fa fa-chevron-down"></span></a>
+                          <ul class="nav child_menu">
+                            <li class="sub_menu"><a href="level2.html">Level Two</a>
+                            </li>
+                            <li><a href="#level2_1">Level Two</a>
+                            </li>
+                            <li><a href="#level2_2">Level Two</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li><a href="#level1_2">Level One</a>
+                        </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div> -->
+
+            </div>
+            <br><br><br><br>
+            <!-- /sidebar menu -->
+
+            <!-- /menu footer buttons -->
+            
+            <!-- /menu footer buttons -->
+          </div>            
+</template>
