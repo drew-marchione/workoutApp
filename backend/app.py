@@ -351,7 +351,7 @@ def userSelectedTricepsWorkout():
     try:
         print("add user triceps exercises: ", request.json)
         data = request.json
-        printdata.get('name')
+        print data.get('name')
 
         userID = data.get('userID')
         exerciseType = data.get('exerciseType')
