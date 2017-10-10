@@ -1,6 +1,6 @@
 CREATE DEFINER=`root`@`localhost` PROCEDURE `Admin_Update_Biceps`(
 	IN exerciseID INT,
-	IN exercise_name VARCHAR(45),
+    IN exercise_name VARCHAR(45),
     IN videoLink VARCHAR(150),
     IN exercise_description MEDIUMTEXT,
     IN exercise_type VARCHAR(45)
