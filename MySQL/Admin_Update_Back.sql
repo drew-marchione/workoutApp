@@ -4,7 +4,6 @@ CREATE DEFINER=`root`@`localhost` PROCEDURE `Admin_Update_Back`(
     IN videoLink VARCHAR(150),
     IN exercise_description MEDIUMTEXT,
     IN exercise_type VARCHAR(45)
-    
 )
 BEGIN
     if ( SELECT EXISTS (SELECT 1 FROM back WHERE exercise_name = exerciseName AND exerciseID != back_id) ) THEN
