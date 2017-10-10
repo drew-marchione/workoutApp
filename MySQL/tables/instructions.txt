@@ -1,0 +1,109 @@
+// Schema is MuscleGroups and there are a total of 11 tables in the database
+
+// Table names include: back, biceps, calves, chest, glutes, hamstrings, quads, shoulders, triceps, userInformation, userWorkouts
+
+// Creating the tables
+
+CREATE TABLE MuscleGroups.back (
+	back_id INT NOT NULL AUTO_INCREMENT,
+	exerciseName VARCHAR(45) NOT NULL,
+	videoLink VARCHAR(150) NULL DEFAULT NULL,
+	exerciseDescription MEDIUMTEXT NOT NULL,
+	exerciseType VARCHAR(45) NOT NULL,
+	PRIMARY KEY (back_id)
+	);
+	
+CREATE TABLE MuscleGroups.biceps (
+	biceps_id INT NOT NULL AUTO_INCREMENT,
+	exerciseName VARCHAR(45) NOT NULL,
+	videoLink VARCHAR(150) NULL DEFAULT NULL,
+	exerciseDescription MEDIUMTEXT NOT NULL,
+	exerciseType VARCHAR(45) NOT NULL,
+	PRIMARY KEY (biceps_id)
+	);
+	
+CREATE TABLE MuscleGroups.calves (
+	calves_id INT NOT NULL AUTO_INCREMENT,
+	exerciseName VARCHAR(45) NOT NULL,
+	videoLink VARCHAR(150) NULL DEFAULT NULL,
+	exerciseDescription MEDIUMTEXT NOT NULL,
+	exerciseType VARCHAR(45) NOT NULL,
+	PRIMARY KEY (calves_id)
+	);
+	
+CREATE TABLE MuscleGroups.chest (
+	chest_id INT NOT NULL AUTO_INCREMENT,
+	exerciseName VARCHAR(45) NOT NULL,
+	videoLink VARCHAR(150) NULL DEFAULT NULL,
+	exerciseDescription MEDIUMTEXT NOT NULL,
+	exerciseType VARCHAR(45) NOT NULL,
+	PRIMARY KEY (chest_id)
+	);
+	
+CREATE TABLE MuscleGroups.glutes (
+	glutes_id INT NOT NULL AUTO_INCREMENT,
+	exerciseName VARCHAR(45) NOT NULL,
+	videoLink VARCHAR(150) NULL DEFAULT NULL,
+	exerciseDescription MEDIUMTEXT NOT NULL,
+	exerciseType VARCHAR(45) NOT NULL,
+	PRIMARY KEY (glutes_id)
+	);
+	
+CREATE TABLE MuscleGroups.hamstrings (
+	hamstrings_id INT NOT NULL AUTO_INCREMENT,
+	exerciseName VARCHAR(45) NOT NULL,
+	videoLink VARCHAR(150) NULL DEFAULT NULL,
+	exerciseDescription MEDIUMTEXT NOT NULL,
+	exerciseType VARCHAR(45) NOT NULL,
+	PRIMARY KEY (hamstrings_id)
+	);
+	
+CREATE TABLE MuscleGroups.quads (
+	quads_id INT NOT NULL AUTO_INCREMENT,
+	exerciseName VARCHAR(45) NOT NULL,
+	videoLink VARCHAR(150) NULL DEFAULT NULL,
+	exerciseDescription MEDIUMTEXT NOT NULL,
+	exerciseType VARCHAR(45) NOT NULL,
+	PRIMARY KEY (quads_id)
+	);
+	
+CREATE TABLE MuscleGroups.shoulders (
+	shoulders_id INT NOT NULL AUTO_INCREMENT,
+	exerciseName VARCHAR(45) NOT NULL,
+	videoLink VARCHAR(150) NULL DEFAULT NULL,
+	exerciseDescription MEDIUMTEXT NOT NULL,
+	exerciseType VARCHAR(45) NOT NULL,
+	PRIMARY KEY (shoulders_id)
+	);
+	
+CREATE TABLE MuscleGroups.triceps (
+	triceps_id INT NOT NULL AUTO_INCREMENT,
+	exerciseName VARCHAR(45) NOT NULL,
+	videoLink VARCHAR(150) NULL DEFAULT NULL,
+	exerciseDescription MEDIUMTEXT NOT NULL,
+	exerciseType VARCHAR(45) NOT NULL,
+	PRIMARY KEY (triceps_id)
+	);
+
+CREATE TABLE MuscleGroups.userInformation (
+	user_id INT NOT NULL AUTO_INCREMENT,
+	user_firstname VARCHAR(45) NOT NULL,
+	user_lastname VARCHAR(45) NOT NULL,
+	user_username VARCHAR(45) NOT NULL,
+	user_password VARCHAR(300) NOT NULL,
+	PRIMARY KEY (user_id)
+	);
+	
+CREATE TABLE MuscleGroups.userWorkouts (
+	user_id INT NOT NULL,
+	exerciseType VARCHAR(45) NOT NULL,
+	exerciseName VARCHAR(45) NOT NULL,
+	videoLink VARCHAR(150) NULL DEFAULT NULL,
+	exerciseDescription MEDIUMTEXT NOT NULL,
+	exerciseSets INT NOT NULL,
+	exerciseReps INT NOT NULL,
+	exerciseTotal INT NOT NULL AUTO_INCREMENT
+	PRIMARY KEY (exerciseTotal)
+	);
+	
+	
