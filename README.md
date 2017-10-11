@@ -1,3 +1,3 @@
 # workoutApp
 
-![Screenshot](images/signin.png)
+![Screenshot](images/signIn.png)
