@@ -31,4 +31,30 @@ hello
 
 # Updating a Record
 
+hello
 
+![Screenshot](./images/updateRecord.png)
+
+![Screenshot](./images/updateRecordDropdown.png)
+
+![Screenshot](./images/updateRecordModal.png)
+
+![Screenshot](./images/updateRecordModalText.png)
+
+![Screenshot](./images/updateRecordSuccessful.png)
+
+![Screenshot](./images/updateRecordNewDropdown.png)
+
+![Screenshot](./images/updateRecordPanel.png)
+
+![Screenshot](./images/updateRecordNameFail1.png)
+
+![Screenshot](./images/updateRecordNameFail2.png)
+
+![Screenshot](./images/updateRecordEmptyFail1.png)
+
+![Screenshot](./images/updateRecordEmptyFail2.png)
+
+# Deleting a Record
+
+hello
