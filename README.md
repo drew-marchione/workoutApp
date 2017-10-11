@@ -8,7 +8,6 @@
 
 # Creating a Record
 hello
-hello
 
 hello
 
@@ -19,3 +18,7 @@ hello
 ![Screenshot](./images/createFailedName.png)
 
 ![Screenshot](./images/createSuccessful.png)
+
+# Reading a Record
+
+
