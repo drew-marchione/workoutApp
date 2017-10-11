@@ -43,8 +43,6 @@ hello
 
 ![Screenshot](./images/updateRecordSuccessful.png)
 
-![Screenshot](./images/updateRecordNewDropdown.png)
-
 ![Screenshot](./images/updateRecordPanel.png)
 
 ![Screenshot](./images/updateRecordNameFail1.png)
