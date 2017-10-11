@@ -56,3 +56,13 @@ hello
 # Deleting a Record
 
 hello
+
+![Screenshot](./images/deleteRecord.png)
+
+![Screenshot](./images/deleteRecordDropdown.png)
+
+![Screenshot](./images/deleteRecordModal.png)
+
+![Screenshot](./images/deleteRecordSuccessful.png)
+
+![Screenshot](./images/deleteRecordPanel.png)
