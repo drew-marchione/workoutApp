@@ -6,6 +6,8 @@
 
 ![Screenshot](./images/adminLandingPage.png)
 
+Creating a Record
+
 ![Screenshot](./images/createRecord.png)
 
 ![Screenshot](./images/createFailed.png)
