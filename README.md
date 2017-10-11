@@ -6,4 +6,10 @@
 
 ![Screenshot](./images/adminLandingPage.png)
 
-![Screenshot](./images/adminLandingPage.png)
+![Screenshot](./images/createRecord.png)
+
+![Screenshot](./images/createFailed.png)
+
+![Screenshot](./images/createFailedName.png)
+
+![Screenshot](./images/createSuccessful.png)
