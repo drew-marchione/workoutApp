@@ -11,13 +11,13 @@ hello
 
 ![Screenshot](./images/createRecord.png)
 
-![Screenshot](./images/createRecordPanel.png)
-
 ![Screenshot](./images/createFailed.png)
 
 ![Screenshot](./images/createFailedName.png)
 
 ![Screenshot](./images/createSuccessful.png)
+
+![Screenshot](./images/createRecordPanel.png)
 
 # Reading a Record
 
