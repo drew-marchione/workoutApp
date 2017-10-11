@@ -1,3 +1,3 @@
 # workoutApp
 
-![Screenshot](images/signIn.png)
+![Screenshot](images/signIn.png =100x20)
