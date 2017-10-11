@@ -9,9 +9,9 @@
 # Creating a Record
 hello
 
-hello
-
 ![Screenshot](./images/createRecord.png)
+
+![Screenshot](./images/createRecordPanel.png)
 
 ![Screenshot](./images/createFailed.png)
 
