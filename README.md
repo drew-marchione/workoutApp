@@ -6,8 +6,7 @@
 
 ![Screenshot](./images/adminLandingPage.png)
 
-# Creating a Record
-## Creaeting a Record
+# Creating a Record -- hello
 
 ![Screenshot](./images/createRecord.png)
 
