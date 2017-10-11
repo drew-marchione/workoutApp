@@ -21,4 +21,14 @@ hello
 
 # Reading a Record
 
+hello
+
+![Screenshot](./images/readRecord.png)
+
+![Screenshot](./images/readRecordDropdown.png)
+
+![Screenshot](./images/readRecordModal.png)
+
+# Updating a Record
+
 
