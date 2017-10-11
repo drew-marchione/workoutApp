@@ -7,11 +7,3 @@
 ![Screenshot](./images/adminLandingPage.png)
 
 ![Screenshot](./images/adminLandingPage.png)
-
-![Screenshot](./images/adminLandingPage.png)
-
-![Screenshot](./images/adminLandingPage.png)
-
-![Screenshot](./images/adminLandingPage.png)
-
-![Screenshot](./images/adminLandingPage.png)
