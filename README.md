@@ -75,8 +75,6 @@ hello
 
 ![Screenshot](./images/signUpJohnSmith.png)
 
-![Screenshot](./images/signUpJohnSmithSuccessful.png)
-
 ![Screenshot](./images/johnSmithLandingPage.png)
 
 ![Screenshot](./images/johnSmithWorkoutPage.png)
