@@ -8,6 +8,8 @@ My name is Drew and I built this application to demonstrate my ability to learn 
 
 The application's tech stack is: HTML/CSS, Bootstrap, Ecmascript6, Aurelia, Python, Python Flask, SQL
 
+![Screenshot](./images/signUp.png)
+
 ![Screenshot](./images/signIn.png)
 
 ![Screenshot](./images/adminLandingPage.png)
