@@ -75,8 +75,26 @@ hello
 
 ![Screenshot](./images/signUpJohnSmith.png)
 
+![Screenshot](./images/signUpUnsuccessful.png)
+
 ![Screenshot](./images/johnSmithLandingPage.png)
 
 ![Screenshot](./images/johnSmithWorkoutPage.png)
 
-![Screenshot](./images/signUpUnsuccessful.png)
+![Screenshot](./images/chestWorkouts.png)
+
+![Screenshot](./images/chestWorkoutModal.png)
+
+![Screenshot](./images/chestWorkoutModalFilledIn.png)
+
+![Screenshot](./images/chestWorkoutModalSuccessful.png)
+
+![Screenshot](./images/chestWorkoutModalEmpty.png)
+
+![Screenshot](./images/chestWorkoutModalUnsuccessful.png)
+
+![Screenshot](./images/johnSmithWorkoutPageUpdated.png)
+
+![Screenshot](./images/johnSmithWorkoutPageUpdated2.png)
+
+![Screenshot](./images/johnSmithSuccessfulLogout.png)
