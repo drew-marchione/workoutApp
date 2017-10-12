@@ -8,7 +8,7 @@ My name is Drew and I built this application to demonstrate my ability to learn 
 
 The application's tech stack is: HTML/CSS, Bootstrap, Ecmascript6, Aurelia, Python, Python Flask, SQL
 
-A quick walkthrough of how the website flows is below with a more in depth technical explanation coming soon.
+A quick walkthrough of how the website flows is below with a more in-depth technical explanation coming soon.
 
 ## Signing Up as Admin
 
@@ -64,11 +64,25 @@ On the side navbar click "Create Workout" --> "Upper Body" --> "Chest".  Scroll 
 
 # Reading a Record
 
-hello
+This is the "Read Record" interface. Here you may select a muscle group and view the exercises that are associated with it.
+
+<br />
 
 ![Screenshot](./images/readRecord.png)
 
+<br />
+
+When you have selected the muscle group, click "submit". This will render a list of all the exercise names that belong to the muscle group.
+
+<br />
+
 ![Screenshot](./images/readRecordDropdown.png)
+
+<br />
+
+To have a more in-depth look at each exercise's properties, click on the icon.
+
+<br />
 
 ![Screenshot](./images/readRecordModal.png)
 
