@@ -10,7 +10,7 @@ The application's tech stack is: HTML/CSS, Bootstrap, Ecmascript6, Aurelia, Pyth
 
 # Signing Up as Admin
 
-hello all
+<center> hello all </center>
 
 ![Screenshot](./images/signUp.png)
 
