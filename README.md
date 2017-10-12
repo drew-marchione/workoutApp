@@ -8,6 +8,8 @@ My name is Drew and I built this application to demonstrate my ability to learn 
 
 The application's tech stack is: HTML/CSS, Bootstrap, Ecmascript6, Aurelia, Python, Python Flask, SQL
 
+A quick walkthrough of how the website flows is below with a more in depth technical explanation coming soon.
+
 ## Signing Up as Admin
 
 hello all
@@ -19,7 +21,10 @@ hello all
 ![Screenshot](./images/adminLandingPage.png)
 
 # Creating a Record
-hello
+
+As Admin, you are given access to the basic CRUD operations
+
+This is the "Create Record" interface. 
 
 ![Screenshot](./images/createRecord.png)
 
