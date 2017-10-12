@@ -1,6 +1,12 @@
-# workoutApp
+# YouFit
 
 <!-- <img src=https://github.com/drew-marchione/workoutApp/blob/master/images/signIn.png width="740" height="480"> -->
+
+Welcome to Youfit! A simple web application that allows users to customize and create their own workouts!
+
+My name is Drew and I built this application to demonstrate my ability to learn new technologies.
+
+The application's tech stack is: HTML/CSS, Bootstrap, Ecmascript6, Aurelia, Python, Python Flask, SQL
 
 ![Screenshot](./images/signIn.png)
 
