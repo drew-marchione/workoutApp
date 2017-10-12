@@ -40,13 +40,25 @@ If all fields are not filled in and the submit button is hit, the new exercise w
 
 <br />
 
-Another validation check occurs when the Admin tries to create an exercise twice. There already exists a chest exercise named "Flat Barbell Bench Press" in the database. When the Admin attempts to create the exercise a second time, a red notification banner will appear in the top right hand corner saying "Exercise Name Already Exists!"
+Another validation check occurs when the Admin tries to create an exercise twice. There already exists a chest exercise named "Flat Barbell Bench Press" in the database. When the Admin attempts to create the exercise a second time, a red notification banner will appear in the top right hand corner stating "Exercise Name Already Exists!"
 
 <br />
 
 ![Screenshot](./images/createFailedName.png)
 
+<br />
+
+ If all fields are filled in and the exercise name is different from those in the database, then the exercise is created successfully
+
+<br />
+
 ![Screenshot](./images/createSuccessful.png)
+
+<br />
+
+On the side navbar click "Create Workout" --> "Upper Body" --> "Chest".  Scroll to the bottom and there is the new exercise we just created!
+
+<br />
 
 ![Screenshot](./images/createRecordPanel.png)
 
