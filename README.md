@@ -25,12 +25,15 @@ hello all
 As Admin, you are given access to the basic CRUD operations
 
 This is the "Create Record" interface.
+
 <br />
 
 ![Screenshot](./images/createRecord.png)
 
 <br />
+
 If all fields are not filled in and the submit button is hit, the new exercise will not be created and a red notification banner will appear in the top right hand corner.
+
 <br />
 
 ![Screenshot](./images/createFailed.png)
