@@ -80,7 +80,7 @@ When you have selected the muscle group, click "submit". This will render a list
 
 <br />
 
-To have a more in-depth look at each exercise's properties, click on the icon.
+To have a more in-depth look at each exercise's properties, click on the icon to the right. The fields are disabled as this is solely for viewing purposes.
 
 <br />
 
