@@ -71,4 +71,14 @@ hello
 
 hello
 
+![Screenshot](./images/signUp.png)
 
+![Screenshot](./images/signUpJohnSmith.png)
+
+![Screenshot](./images/signUpJohnSmithSuccessful.png)
+
+![Screenshot](./images/johnSmithLandingPage.png)
+
+![Screenshot](./images/johnSmithWorkoutPage.png)
+
+![Screenshot](./images/signUpUnsuccessful.png)
