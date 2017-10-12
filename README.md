@@ -32,11 +32,17 @@ This is the "Create Record" interface.
 
 <br />
 
-If all fields are not filled in and the submit button is hit, the new exercise will not be created and a red notification banner will appear in the top right hand corner.
+If all fields are not filled in and the submit button is hit, the new exercise will not be created and a red notification banner will appear in the top right hand corner stating "Please Fill In All Fields!"
 
 <br />
 
 ![Screenshot](./images/createFailed.png)
+
+<br />
+
+Another validation check occurs when the Admin tries to create an exercise twice. There already exists a chest exercise named "Flat Barbell Bench Press" in the database. When the Admin attempts to create the exercise a second time, a red notification banner will appear in the top right hand corner saying "Exercise Name Already Exists!"
+
+<br />
 
 ![Screenshot](./images/createFailedName.png)
 
