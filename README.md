@@ -256,7 +256,7 @@ Click on the "UserPage" link at the top of the website. Here is John Smith's own
 
 <br />
 
-We can select a muscle group and scroll through the exercises associated with it.
+You can select a muscle group and scroll through the exercises associated with it.
 
 <br />
 
