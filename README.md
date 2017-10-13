@@ -324,6 +324,14 @@ Feel free to use the sidebar to customize other exercises to add to your workout
 
 <br />
 
+![Screenshot](./images/johnSmithWorkoutPageDelete.png)
+
+<br />
+
+
+
+<br />
+
 ![Screenshot](./images/johnSmithSuccessfulLogout.png)
 
 <br />
