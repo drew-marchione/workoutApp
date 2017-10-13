@@ -80,7 +80,7 @@ When you have selected the muscle group, click "submit". This will render a list
 
 <br />
 
-To view each exercise's properties, click on the icon to the right. The fields are disabled as this is solely for viewing purposes.
+To view each exercise's properties, click on the icon to the right.  A modal will pop up displaying the properties. The fields are disabled as this is solely for viewing purposes.
 
 <br />
 
@@ -88,7 +88,7 @@ To view each exercise's properties, click on the icon to the right. The fields a
 
 # Updating a Record
 
-This is the "Update Record" interface. Here you may modify an existing exercise.
+This is the "Update Record" interface. Here you can modify any existing exercise.
 
 <br />
 
@@ -104,7 +104,7 @@ When you have selected the muscle group, click "submit". This will render a list
 
 <br />
 
-To view each exercise's properties, click on the icon to the right. A modal will pop up displaying the properties. Here you may modify the exercise data.
+To view each exercise's properties, click on the icon to the right. A modal will pop up displaying the properties. Here you can modify the exercise data.
 
 <br />
 
@@ -112,7 +112,7 @@ To view each exercise's properties, click on the icon to the right. A modal will
 
 <br />
 
-To see an update in action, we will modify the exercise name of "Flat Barbell Bench Press". Notice how I added "(UPDATING TEXT!)" to the end of the exercise name. Click the "submit" button.  
+To see an update in action, we will modify the exercise name of "Flat Barbell Bench Press". Notice how I added "(UPDATING TEXT!)" to the end of the exercise name. Click the "update" button.  
 
 <br />
 
@@ -136,7 +136,7 @@ To check our updated exercise click "Create Workout" --> "Upper Body" --> "Chest
 
 <br />
 
-
+Going back to the update modal we can test a few validation cases. The first being 
 
 <br />
 
@@ -174,15 +174,41 @@ To check our updated exercise click "Create Workout" --> "Upper Body" --> "Chest
 
 # Deleting a Record
 
-hello
+This is the "Delete Record" interface. Here you can delete an exercise from the database.
+
+<br />
 
 ![Screenshot](./images/deleteRecord.png)
 
+<br />
+
+When you have selected the muscle group, click "submit". This will render a list of all the exercise names that belong to the muscle group.
+
+<br />
+
 ![Screenshot](./images/deleteRecordDropdown.png)
+
+<br />
+
+To view each exercise's properties, click on the icon to the right. A modal will pop up displaying the properties. Here you can delete an exercise.
+
+<br />
 
 ![Screenshot](./images/deleteRecordModal.png)
 
+<br />
+
+
+
+<br />
+
 ![Screenshot](./images/deleteRecordSuccessful.png)
+
+<br />
+
+
+
+<br />
 
 ![Screenshot](./images/deleteRecordPanel.png)
 
