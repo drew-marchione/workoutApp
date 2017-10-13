@@ -320,7 +320,7 @@ Feel free to use the sidebar to customize other exercises to add to your workout
 
 <br />
 
-
+At any point you can delete quickly delete an exercise from your workout page as well.
 
 <br />
 
