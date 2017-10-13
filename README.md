@@ -12,7 +12,9 @@ A quick walkthrough of how the website flows is below with a more in-depth techn
 
 ## Signing Up as Admin
 
-hello all
+To sign up as Admin make sure the username = Admin. Of course for more security you can change the conditional in the code 
+
+
 
 ![Screenshot](./images/signUp.png)
 
@@ -198,7 +200,7 @@ To view each exercise's properties, click on the icon to the right. A modal will
 
 <br />
 
-Click "delete" and watch the exercise disappear! Now our first Chest exercise is "Incline Barbell Press"
+Click "delete" and watch the exercise disappear! Now our first chest exercise is "Incline Barbell Bench Press"
 
 <br />
 
@@ -206,7 +208,7 @@ Click "delete" and watch the exercise disappear! Now our first Chest exercise is
 
 <br />
 
-Let's double check what it will look like for our users by clicking "Create Workout" --> "Upper Body" --> "Chest". Just like we thought our first exercise is "Incline Barbell Press" which means "Flat Barbell Bench Press(UPDATING TEXT!)" was deleted from the database successfully.
+Let's double check what it will look like for our users by clicking "Create Workout" --> "Upper Body" --> "Chest". Just like we thought, our first exercise is "Incline Barbell Bench Press" which means "Flat Barbell Bench Press(UPDATING TEXT!)" was deleted from the database successfully.
 
 <br />
 
@@ -214,7 +216,9 @@ Let's double check what it will look like for our users by clicking "Create Work
 
 # User Sign In
 
-hello
+Ok, so that wraps up the Admin's capabilities. Now let's focus on what the website looks like for an everyday user.
+
+This is the sign up interface. If a user has already signed up they can click "Already have an account?" and the panel will flip over to a sign in form.
 
 ![Screenshot](./images/signUp.png)
 
