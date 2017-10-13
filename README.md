@@ -80,7 +80,7 @@ When you have selected the muscle group, click "submit". This will render a list
 
 <br />
 
-To have a more in-depth look at each exercise's properties, click on the icon to the right. The fields are disabled as this is solely for viewing purposes.
+To view each exercise's properties, click on the icon to the right. The fields are disabled as this is solely for viewing purposes.
 
 <br />
 
@@ -88,27 +88,89 @@ To have a more in-depth look at each exercise's properties, click on the icon to
 
 # Updating a Record
 
-hello
+This is the "Update Record" interface. Here you may modify an existing exercise.
+
+<br />
 
 ![Screenshot](./images/updateRecord.png)
 
+<br />
+
+When you have selected the muscle group, click "submit". This will render a list of all the exercise names that belong to the muscle group.
+
+<br />
+
 ![Screenshot](./images/updateRecordDropdown.png)
+
+<br />
+
+To view each exercise's properties, click on the icon to the right. A modal will pop up displaying the properties. Here you may modify the exercise data.
+
+<br />
 
 ![Screenshot](./images/updateRecordModal.png)
 
+<br />
+
+To see an update in action, we will modify the exercise name of "Flat Barbell Bench Press". Notice how I added "(UPDATING TEXT!)" to the end of the exercise name. Click the "submit" button.  
+
+<br />
+
 ![Screenshot](./images/updateRecordModalText.png)
+
+<br />
+
+Upon a successful update a green success notification will appear in the top right corner. You can also see the updated name down below.
+
+<br />
 
 ![Screenshot](./images/updateRecordSuccessful.png)
 
+<br />
+
+To check our updated exercise click "Create Workout" --> "Upper Body" --> "Chest". This is also what the exercise will now look like to the users who do not have Admin privileges.
+
+<br />
+
 ![Screenshot](./images/updateRecordPanel.png)
+
+<br />
+
+
+
+<br />
 
 ![Screenshot](./images/updateRecordNameFail1.png)
 
+<br />
+
+
+
+<br />
+
 ![Screenshot](./images/updateRecordNameFail2.png)
+
+<br />
+
+
+
+<br />
 
 ![Screenshot](./images/updateRecordEmptyFail1.png)
 
+<br />
+
+
+
+<br />
+
 ![Screenshot](./images/updateRecordEmptyFail2.png)
+
+<br />
+
+
+
+<br />
 
 # Deleting a Record
 
