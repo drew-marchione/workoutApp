@@ -218,25 +218,79 @@ Let's double check what it will look like for our users by clicking "Create Work
 
 Ok, so that wraps up the Admin's capabilities. Now let's focus on what the website looks like for an everyday user.
 
-This is the sign up interface. If a user has already signed up they can click "Already have an account?" and the panel will flip over to a sign in form.
+This is the sign up interface. If a user has already signed up they can click "Already have an account?" and the panel will flip over to a sign in form. For this tutorial we will assume the user is new to the website.
 
 ![Screenshot](./images/signUp.png)
 
+<br />
+
+Let's enter some credentials
+
+<br />
+
 ![Screenshot](./images/signUpJohnSmith.png)
+
+<br />
+
+As long as the username doesn't exist, the user will be signed up successfully.  If the username exists, an error will be thrown and it will look like this:
+
+<br />
 
 ![Screenshot](./images/signUpUnsuccessful.png)
 
+<br>
+
+Assuming the username jsmith@gmail.com hasn't been used yet, the user is created successfully.
+
+<br />
+
 ![Screenshot](./images/johnSmithLandingPage.png)
+
+<br />
+
+
+
+<br />
 
 ![Screenshot](./images/johnSmithWorkoutPage.png)
 
+<br />
+
+
+
+<br />
+
 ![Screenshot](./images/chestWorkouts.png)
+
+<br/>
+
+
+
+<br />
 
 ![Screenshot](./images/chestWorkoutModal.png)
 
+<br />
+
+
+
+<br />
+
 ![Screenshot](./images/chestWorkoutModalFilledIn.png)
 
+<br />
+
+
+
+<br />
+
 ![Screenshot](./images/chestWorkoutModalSuccessful.png)
+
+<br />
+
+
+
+<br />
 
 ![Screenshot](./images/chestWorkoutModalEmpty.png)
 
