@@ -336,6 +336,8 @@ Last thing is the logout method. At any time a user wants to logout they must si
 
 <br />
 
+When Logging back in, each user's credentials are saved, so your "UserPage" will have the exercises you added last time you were logged in.
 
+That's a Wrap!
 
 <br />
