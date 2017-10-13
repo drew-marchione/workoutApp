@@ -214,7 +214,7 @@ Let's double check what it will look like for our users by clicking "Create Work
 
 ![Screenshot](./images/deleteRecordPanel.png)
 
-# User Sign In
+# User Sign Up
 
 Ok, so that wraps up the Admin's capabilities. Now let's focus on what the website looks like for an everyday user.
 
@@ -240,7 +240,7 @@ As long as the username doesn't exist, the user will be signed up successfully. 
 
 <br>
 
-Assuming the username jsmith@gmail.com hasn't been used yet, the user is created successfully.
+Assuming the username jsmith@gmail.com hasn't been used yet, the user is created successfully. The first thing to notice is that the side navbar menu does not have the Admin dropdown tab. Using Aurelia's data-binding, whenever the username is anything other than "Admin", the Admin dropdown tab is hidden.  
 
 <br />
 
@@ -248,7 +248,7 @@ Assuming the username jsmith@gmail.com hasn't been used yet, the user is created
 
 <br />
 
-
+Click on the "UserPage" link at the top of the website. Here is John Smith's own personalized workout page. Right now it is empty, but by clicking on the "Create Workout" tab John Smith can customize and add exercises to his UserPage.
 
 <br />
 
@@ -256,7 +256,7 @@ Assuming the username jsmith@gmail.com hasn't been used yet, the user is created
 
 <br />
 
-
+We can select a muscle group and scroll through the exercises associated with it.
 
 <br />
 
