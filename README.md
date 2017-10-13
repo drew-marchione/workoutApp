@@ -264,7 +264,7 @@ You can select a muscle group and scroll through the exercises associated with i
 
 <br/>
 
-Once you find an exercise you want to add to your workout click "customize". A modal will pop up which will allow you to enter a custom number of sets and reps for the exercise.
+Once you find an exercise you want to add to your workout click "customize". A modal will pop up which allows you to enter a custom number of sets and reps for the exercise.
 
 <br />
 
@@ -272,7 +272,7 @@ Once you find an exercise you want to add to your workout click "customize". A m
 
 <br />
 
-
+If you try to enter a null value into the fields then the exercise add will be unsuccessful.
 
 <br />
 
@@ -280,7 +280,7 @@ Once you find an exercise you want to add to your workout click "customize". A m
 
 <br />
 
-
+A red error notification will alert you in the top right corner of the screen.
 
 <br />
 
@@ -288,7 +288,7 @@ Once you find an exercise you want to add to your workout click "customize". A m
 
 <br />
 
-
+Assuming the fields are filled in and not null, the exercise will successfully be added to your workout!
 
 <br />
 
@@ -296,7 +296,7 @@ Once you find an exercise you want to add to your workout click "customize". A m
 
 <br />
 
-
+A green success notification will alert you in the top right corner of the screen.
 
 <br />
 
@@ -304,7 +304,7 @@ Once you find an exercise you want to add to your workout click "customize". A m
 
 <br />
 
-
+Now, let's click on the "UserPage" tab at the top of the website. Now we can see John Smith's workout page is populated with the 
 
 <br />
 
