@@ -304,7 +304,7 @@ A green success notification will alert you in the top right corner of the scree
 
 <br />
 
-Now, let's click on the "UserPage" tab at the top of the website. Now we can see John Smith's workout page is populated with the 
+Now, let's click on the "UserPage" tab at the top of the website. We can see John Smith's workout page is populated with the "Flat Barbell Bench Press" exercise with 3 sets and 8 reps. It worked!
 
 <br />
 
@@ -312,7 +312,7 @@ Now, let's click on the "UserPage" tab at the top of the website. Now we can see
 
 <br />
 
-
+Feel free to use the sidebar to customize other exercises to add to your workout as well!
 
 <br />
 
