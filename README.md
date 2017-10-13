@@ -320,7 +320,7 @@ Feel free to use the sidebar to customize other exercises to add to your workout
 
 <br />
 
-At any point you can delete quickly delete an exercise from your workout page as well.
+At any point you can quickly delete an exercise from your workout page as well.
 
 <br />
 
@@ -328,7 +328,7 @@ At any point you can delete quickly delete an exercise from your workout page as
 
 <br />
 
-
+Last thing is the logout method. At any time a user wants to logout they must simply press the "Logout" tab at the top of the website. They will be redirected to the sign in page.
 
 <br />
 
