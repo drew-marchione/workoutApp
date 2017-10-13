@@ -294,10 +294,40 @@ Assuming the username jsmith@gmail.com hasn't been used yet, the user is created
 
 ![Screenshot](./images/chestWorkoutModalEmpty.png)
 
+<br />
+
+
+
+<br />
+
 ![Screenshot](./images/chestWorkoutModalUnsuccessful.png)
+
+<br />
+
+
+
+<br />
 
 ![Screenshot](./images/johnSmithWorkoutPageUpdated.png)
 
+<br />
+
+
+
+<br />
+
 ![Screenshot](./images/johnSmithWorkoutPageUpdated2.png)
 
+<br />
+
+
+
+<br />
+
 ![Screenshot](./images/johnSmithSuccessfulLogout.png)
+
+<br />
+
+
+
+<br />
