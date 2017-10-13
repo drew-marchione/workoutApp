@@ -236,7 +236,7 @@ As long as the username doesn't exist, the user will be signed up successfully. 
 
 <br />
 
-![Screenshot](./images/signUpUnsuccessful.png)
+![Screenshot](./images/signUpJohnSmithUnsuccessful.png)
 
 <br>
 
