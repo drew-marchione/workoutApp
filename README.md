@@ -106,7 +106,7 @@ When you have selected the muscle group, click "submit". This will render a list
 
 <br />
 
-To view each exercise's properties, click on the icon to the right. A modal will pop up displaying the properties. Here you can modify the exercise data.
+To view each exercise's properties, click on the icon to the right. A modal will pop up displaying the properties. Here you can modify the exercise data. We will modify the "Flat Barbell Bench Press" exercise.
 
 <br />
 
@@ -114,7 +114,7 @@ To view each exercise's properties, click on the icon to the right. A modal will
 
 <br />
 
-We will test a few validation cases before showing a successful update. The first being a duplicate naming error. In this example we have selected "Flat Barbell Bench Press" which is out first chest workout. Here, we change its name to "Incline Barbell Bench Press" which happens to already exist as our second chest workout. When you hit the update button an error will be thrown as you cannot have 2 exercises named "Incline Barbell Bench Press".
+We will test a few validation cases before showing a successful update. The first being a duplicate naming error. In this example we have selected "Flat Barbell Bench Press" which is the first chest workout. Here, we change its name to "Incline Barbell Bench Press" which happens to already exist as our second chest workout. When you hit the update button an error will be thrown as you cannot have two exercises named "Incline Barbell Bench Press".
 
 <br />
 
@@ -122,7 +122,7 @@ We will test a few validation cases before showing a successful update. The firs
 
 <br />
 
-
+As you can see, a red error notification appears in the top right corner. The exercise data is restored back to it's original name of "Flat Barbell Bench Press".
 
 <br />
 
@@ -130,13 +130,15 @@ We will test a few validation cases before showing a successful update. The firs
 
 <br />
 
+The next validation case we will test is entering a null value into a field. If we simply hit backspace and empty the value, the update will fail.
+
 <br />
 
 ![Screenshot](./images/updateRecordEmptyFail1.png)
 
 <br />
 
-
+We can see the null value cause the fail here.
 
 <br />
 
@@ -144,7 +146,7 @@ We will test a few validation cases before showing a successful update. The firs
 
 <br />
 
-To see an update in action, we will modify the exercise name of "Flat Barbell Bench Press". Notice how I added "(UPDATING TEXT!)" to the end of the exercise name. Click the "update" button.  
+Now, to see a successful update in action, we will modify the exercise name of "Flat Barbell Bench Press". Notice how I added "(UPDATING TEXT!)" to the end of the exercise name. Click the "update" button.  
 
 <br />
 
