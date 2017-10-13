@@ -114,7 +114,7 @@ To view each exercise's properties, click on the icon to the right. A modal will
 
 <br />
 
-Going back to the update modal we can test a few validation cases. The first being 
+We will test a few validation cases before showing a successful update. The first being a duplicate naming error. In this example we have selected "Flat Barbell Bench Press" which is out first chest workout. Here, we change its name to "Incline Barbell Bench Press" which happens to already exist as our second chest workout. When you hit the update button an error will be thrown as you cannot have 2 exercises named "Incline Barbell Bench Press".
 
 <br />
 
