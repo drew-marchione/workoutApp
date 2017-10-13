@@ -114,6 +114,36 @@ To view each exercise's properties, click on the icon to the right. A modal will
 
 <br />
 
+Going back to the update modal we can test a few validation cases. The first being 
+
+<br />
+
+![Screenshot](./images/updateRecordNameFail1.png)
+
+<br />
+
+
+
+<br />
+
+![Screenshot](./images/updateRecordNameFail2.png)
+
+<br />
+
+<br />
+
+![Screenshot](./images/updateRecordEmptyFail1.png)
+
+<br />
+
+
+
+<br />
+
+![Screenshot](./images/updateRecordEmptyFail2.png)
+
+<br />
+
 To see an update in action, we will modify the exercise name of "Flat Barbell Bench Press". Notice how I added "(UPDATING TEXT!)" to the end of the exercise name. Click the "update" button.  
 
 <br />
@@ -135,44 +165,6 @@ To check our updated exercise click "Create Workout" --> "Upper Body" --> "Chest
 <br />
 
 ![Screenshot](./images/updateRecordPanel.png)
-
-<br />
-
-Going back to the update modal we can test a few validation cases. The first being 
-
-<br />
-
-![Screenshot](./images/updateRecordNameFail1.png)
-
-<br />
-
-
-
-<br />
-
-![Screenshot](./images/updateRecordNameFail2.png)
-
-<br />
-
-
-
-<br />
-
-![Screenshot](./images/updateRecordEmptyFail1.png)
-
-<br />
-
-
-
-<br />
-
-![Screenshot](./images/updateRecordEmptyFail2.png)
-
-<br />
-
-
-
-<br />
 
 # Deleting a Record
 
