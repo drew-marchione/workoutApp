@@ -190,7 +190,7 @@ When you have selected the muscle group, click "submit". This will render a list
 
 <br />
 
-To view each exercise's properties, click on the icon to the right. A modal will pop up displaying the properties. Here you can delete an exercise.
+To view each exercise's properties, click on the icon to the right. A modal will pop up displaying the properties. Here you can delete an exercise. Notice how we are deleting "Flat Barbell Bench Press(UPDATING TEXT!)" which is the first chest exercise in the list.
 
 <br />
 
@@ -198,7 +198,7 @@ To view each exercise's properties, click on the icon to the right. A modal will
 
 <br />
 
-
+Click "delete" and watch the exercise disappear! Now our first Chest exercise is "Incline Barbell Press"
 
 <br />
 
@@ -206,7 +206,7 @@ To view each exercise's properties, click on the icon to the right. A modal will
 
 <br />
 
-
+Let's double check what it will look like for our users by clicking "Create Workout" --> "Upper Body" --> "Chest". Just like we thought our first exercise is "Incline Barbell Press" which means "Flat Barbell Bench Press(UPDATING TEXT!)" was deleted from the database successfully.
 
 <br />
 
