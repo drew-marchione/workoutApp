@@ -24,9 +24,9 @@ To sign up as Admin make sure the username = Admin. Of course for more security 
 
 # Creating a Record
 
-1) As Admin, you are given access to the basic CRUD operations
+As Admin, you are given access to the basic CRUD operations
 
-This is the "Create Record" interface.
+1) This is the "Create Record" interface.
 
 <br />
 
@@ -66,7 +66,7 @@ This is the "Create Record" interface.
 
 # Reading a Record
 
-This is the "Read Record" interface. Here you may select a muscle group and view the exercises that are associated with it.
+1) This is the "Read Record" interface. Here you may select a muscle group and view the exercises that are associated with it.
 
 <br />
 
@@ -74,7 +74,7 @@ This is the "Read Record" interface. Here you may select a muscle group and view
 
 <br />
 
-When you have selected the muscle group, click "submit". This will render a list of all the exercise names that belong to the muscle group.
+2) When you have selected the muscle group, click "submit". This will render a list of all the exercise names that belong to the muscle group.
 
 <br />
 
@@ -82,7 +82,7 @@ When you have selected the muscle group, click "submit". This will render a list
 
 <br />
 
-To view each exercise's properties, click on the icon to the right.  A modal will pop up displaying the properties. The fields are disabled as this is solely for viewing purposes.
+3) To view each exercise's properties, click on the icon to the right.  A modal will pop up displaying the properties. The fields are disabled as this is solely for viewing purposes.
 
 <br />
 
@@ -90,7 +90,7 @@ To view each exercise's properties, click on the icon to the right.  A modal wil
 
 # Updating a Record
 
-This is the "Update Record" interface. Here you can modify any existing exercise.
+1) This is the "Update Record" interface. Here you can modify any existing exercise.
 
 <br />
 
@@ -98,7 +98,7 @@ This is the "Update Record" interface. Here you can modify any existing exercise
 
 <br />
 
-When you have selected the muscle group, click "submit". This will render a list of all the exercise names that belong to the muscle group.
+2) When you have selected the muscle group, click "submit". This will render a list of all the exercise names that belong to the muscle group.
 
 <br />
 
@@ -106,7 +106,7 @@ When you have selected the muscle group, click "submit". This will render a list
 
 <br />
 
-To view each exercise's properties, click on the icon to the right. A modal will pop up displaying the properties. Here you can modify the exercise data. We will modify the "Flat Barbell Bench Press" exercise.
+3) To view each exercise's properties, click on the icon to the right. A modal will pop up displaying the properties. Here you can modify the exercise data. We will modify the "Flat Barbell Bench Press" exercise.
 
 <br />
 
@@ -114,7 +114,7 @@ To view each exercise's properties, click on the icon to the right. A modal will
 
 <br />
 
-We will test a few validation cases before showing a successful update. The first being a duplicate naming error. In this example we have selected "Flat Barbell Bench Press" which is the first chest workout. Here, we change its name to "Incline Barbell Bench Press" which happens to already exist as our second chest workout. When you hit the update button an error will be thrown as you cannot have two exercises named "Incline Barbell Bench Press".
+4) We will test a few validation cases before showing a successful update. The first being a duplicate naming error. In this example we have selected "Flat Barbell Bench Press" which is the first chest workout. Here, we change its name to "Incline Barbell Bench Press" which happens to already exist as our second chest workout. When you hit the update button an error will be thrown as you cannot have two exercises named "Incline Barbell Bench Press".
 
 <br />
 
@@ -122,7 +122,7 @@ We will test a few validation cases before showing a successful update. The firs
 
 <br />
 
-As you can see, a red error notification appears in the top right corner. The exercise data is restored back to it's original name of "Flat Barbell Bench Press".
+5) As you can see, a red error notification appears in the top right corner. The exercise data is restored back to it's original name of "Flat Barbell Bench Press".
 
 <br />
 
@@ -130,7 +130,7 @@ As you can see, a red error notification appears in the top right corner. The ex
 
 <br />
 
-The next validation case we will test is entering a null value into a field. If we simply hit backspace and empty the value, the update will fail.
+6) The next validation case we will test is entering a null value into a field. If we simply hit backspace and empty the value, the update will fail.
 
 <br />
 
@@ -138,7 +138,7 @@ The next validation case we will test is entering a null value into a field. If 
 
 <br />
 
-We can see the null value cause the fail here.
+7) We can see the null value cause the fail here.
 
 <br />
 
@@ -146,7 +146,7 @@ We can see the null value cause the fail here.
 
 <br />
 
-Now, to see a successful update in action, we will modify the exercise name of "Flat Barbell Bench Press". Notice how I added "(UPDATING TEXT!)" to the end of the exercise name. Click the "update" button.  
+8) Now, to see a successful update in action, we will modify the exercise name of "Flat Barbell Bench Press". Notice how I added "(UPDATING TEXT!)" to the end of the exercise name. Click the "update" button.  
 
 <br />
 
@@ -154,7 +154,7 @@ Now, to see a successful update in action, we will modify the exercise name of "
 
 <br />
 
-Upon a successful update a green success notification will appear in the top right corner. You can also see the updated name down below.
+9) Upon a successful update a green success notification will appear in the top right corner. You can also see the updated name down below.
 
 <br />
 
@@ -162,7 +162,7 @@ Upon a successful update a green success notification will appear in the top rig
 
 <br />
 
-To check our updated exercise click "Create Workout" --> "Upper Body" --> "Chest". This is also what the exercise will now look like to the users who do not have Admin privileges.
+10) To check our updated exercise click "Create Workout" --> "Upper Body" --> "Chest". This is also what the exercise will now look like to the users who do not have Admin privileges.
 
 <br />
 
@@ -170,7 +170,7 @@ To check our updated exercise click "Create Workout" --> "Upper Body" --> "Chest
 
 # Deleting a Record
 
-This is the "Delete Record" interface. Here you can delete an exercise from the database.
+1) This is the "Delete Record" interface. Here you can delete an exercise from the database.
 
 <br />
 
@@ -178,7 +178,7 @@ This is the "Delete Record" interface. Here you can delete an exercise from the 
 
 <br />
 
-When you have selected the muscle group, click "submit". This will render a list of all the exercise names that belong to the muscle group.
+2) When you have selected the muscle group, click "submit". This will render a list of all the exercise names that belong to the muscle group.
 
 <br />
 
@@ -186,7 +186,7 @@ When you have selected the muscle group, click "submit". This will render a list
 
 <br />
 
-To view each exercise's properties, click on the icon to the right. A modal will pop up displaying the properties. Here you can delete an exercise. Notice how we are deleting "Flat Barbell Bench Press(UPDATING TEXT!)" which is the first chest exercise in the list.
+3) To view each exercise's properties, click on the icon to the right. A modal will pop up displaying the properties. Here you can delete an exercise. Notice how we are deleting "Flat Barbell Bench Press(UPDATING TEXT!)" which is the first chest exercise in the list.
 
 <br />
 
@@ -194,7 +194,7 @@ To view each exercise's properties, click on the icon to the right. A modal will
 
 <br />
 
-Click "delete" and watch the exercise disappear! Now our first chest exercise is "Incline Barbell Bench Press"
+4) Click "delete" and watch the exercise disappear! Now our first chest exercise is "Incline Barbell Bench Press"
 
 <br />
 
@@ -202,7 +202,7 @@ Click "delete" and watch the exercise disappear! Now our first chest exercise is
 
 <br />
 
-Let's double check what it will look like for our users by clicking "Create Workout" --> "Upper Body" --> "Chest". Just like we thought, our first exercise is "Incline Barbell Bench Press" which means "Flat Barbell Bench Press(UPDATING TEXT!)" was deleted from the database successfully.
+5) Let's double check what it will look like for our users by clicking "Create Workout" --> "Upper Body" --> "Chest". Just like we thought, our first exercise is "Incline Barbell Bench Press" which means "Flat Barbell Bench Press(UPDATING TEXT!)" was deleted from the database successfully.
 
 <br />
 
@@ -212,13 +212,13 @@ Let's double check what it will look like for our users by clicking "Create Work
 
 Ok, so that wraps up the Admin's capabilities. Now let's focus on what the website looks like for an everyday user.
 
-This is the sign up interface. If a user has already signed up they can click "Already have an account?" and the panel will flip over to a sign in form. For this tutorial we will assume the user is new to the website.
+1) This is the sign up interface. If a user has already signed up they can click "Already have an account?" and the panel will flip over to a sign in form. For this tutorial we will assume the user is new to the website.
 
 ![Screenshot](./images/signUp.png)
 
 <br />
 
-Let's enter some credentials
+2) Let's enter some credentials
 
 <br />
 
@@ -226,7 +226,7 @@ Let's enter some credentials
 
 <br />
 
-As long as the username doesn't exist, the user will be signed up successfully.  If the username exists, an error will be thrown and it will look like this:
+3) As long as the username doesn't exist, the user will be signed up successfully.  If the username exists, an error will be thrown and it will look like this:
 
 <br />
 
@@ -234,7 +234,7 @@ As long as the username doesn't exist, the user will be signed up successfully. 
 
 <br>
 
-Assuming the username jsmith@gmail.com hasn't been used yet, the user is created successfully. The first thing to notice is that the sidebar menu does not have the Admin dropdown tab. Using Aurelia's data-binding, whenever the username is anything other than "Admin", the Admin dropdown tab is hidden.  
+4) Assuming the username jsmith@gmail.com hasn't been used yet, the user is created successfully. The first thing to notice is that the sidebar menu does not have the Admin dropdown tab. Using Aurelia's data-binding, whenever the username is anything other than "Admin", the Admin dropdown tab is hidden.  
 
 <br />
 
@@ -242,7 +242,7 @@ Assuming the username jsmith@gmail.com hasn't been used yet, the user is created
 
 <br />
 
-Click on the "UserPage" link at the top of the website. Here is John Smith's own personalized workout page. Right now it is empty, but by clicking on the "Create Workout" tab, John Smith can customize and add exercises to his UserPage.
+5) Click on the "UserPage" link at the top of the website. Here is John Smith's own personalized workout page. Right now it is empty, but by clicking on the "Create Workout" tab, John Smith can customize and add exercises to his UserPage.
 
 <br />
 
@@ -250,7 +250,7 @@ Click on the "UserPage" link at the top of the website. Here is John Smith's own
 
 <br />
 
-You can select a muscle group and scroll through the exercises associated with it.
+6) You can select a muscle group and scroll through the exercises associated with it.
 
 <br />
 
@@ -258,7 +258,7 @@ You can select a muscle group and scroll through the exercises associated with i
 
 <br/>
 
-Once you find an exercise you want to add to your workout click "customize". A modal will pop up which allows you to enter a custom number of sets and reps for the exercise.
+7) Once you find an exercise you want to add to your workout click "customize". A modal will pop up which allows you to enter a custom number of sets and reps for the exercise.
 
 <br />
 
@@ -266,7 +266,7 @@ Once you find an exercise you want to add to your workout click "customize". A m
 
 <br />
 
-If you try to enter a null value into the fields then the exercise add will be unsuccessful.
+8) If you try to enter a null value into the fields then the exercise add will be unsuccessful.
 
 <br />
 
@@ -274,7 +274,7 @@ If you try to enter a null value into the fields then the exercise add will be u
 
 <br />
 
-A red error notification will alert you in the top right corner of the screen.
+9) A red error notification will alert you in the top right corner of the screen.
 
 <br />
 
@@ -282,7 +282,7 @@ A red error notification will alert you in the top right corner of the screen.
 
 <br />
 
-Assuming the fields are filled in and not null, the exercise will successfully be added to your workout!
+10) Assuming the fields are filled in and not null, the exercise will successfully be added to your workout!
 
 <br />
 
@@ -290,7 +290,7 @@ Assuming the fields are filled in and not null, the exercise will successfully b
 
 <br />
 
-A green success notification will alert you in the top right corner of the screen.
+11) A green success notification will alert you in the top right corner of the screen.
 
 <br />
 
@@ -298,7 +298,7 @@ A green success notification will alert you in the top right corner of the scree
 
 <br />
 
-Now, let's click on the "UserPage" tab at the top of the website. We can see John Smith's workout page is populated with the "Flat Barbell Bench Press" exercise with 3 sets and 8 reps. It worked!
+12) Now, let's click on the "UserPage" tab at the top of the website. We can see John Smith's workout page is populated with the "Flat Barbell Bench Press" exercise with 3 sets and 8 reps. It worked!
 
 <br />
 
@@ -306,7 +306,7 @@ Now, let's click on the "UserPage" tab at the top of the website. We can see Joh
 
 <br />
 
-Feel free to use the sidebar to customize other exercises to add to your workout as well!
+13) Feel free to use the sidebar to customize other exercises to add to your workout as well!
 
 <br />
 
@@ -314,7 +314,7 @@ Feel free to use the sidebar to customize other exercises to add to your workout
 
 <br />
 
-At any point you can quickly delete an exercise from your workout page as well.
+14) At any point you can quickly delete an exercise from your workout page as well.
 
 <br />
 
@@ -322,7 +322,7 @@ At any point you can quickly delete an exercise from your workout page as well.
 
 <br />
 
-Last thing is the logout method. At any time a user wants to logout they must simply press the "Logout" tab at the top of the website. They will be redirected to the sign in page.
+15) Last thing is the logout method. At any time a user wants to logout they must simply press the "Logout" tab at the top of the website. They will be redirected to the sign in page.
 
 <br />
 
@@ -330,8 +330,8 @@ Last thing is the logout method. At any time a user wants to logout they must si
 
 <br />
 
-When Logging back in, each user's credentials are saved, so your "UserPage" will have the exercises you added last time you were logged in.
+16) When Logging back in, each user's credentials are saved, so your "UserPage" will have the exercises you added last time you were logged in.
 
-That's a Wrap!
+    That's a Wrap!
 
 <br />
