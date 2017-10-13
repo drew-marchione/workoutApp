@@ -24,7 +24,7 @@ To sign up as Admin make sure the username = Admin. Of course for more security 
 
 # Creating a Record
 
-As Admin, you are given access to the basic CRUD operations
+1) As Admin, you are given access to the basic CRUD operations
 
 This is the "Create Record" interface.
 
@@ -34,7 +34,7 @@ This is the "Create Record" interface.
 
 <br />
 
-If all fields are not filled in and the submit button is hit, the new exercise will not be created and a red notification banner will appear in the top right hand corner stating "Please Fill In All Fields!"
+2) If all fields are not filled in and the submit button is hit, the new exercise will not be created and a red notification banner will appear in the top right hand corner stating "Please Fill In All Fields!"
 
 <br />
 
@@ -42,7 +42,7 @@ If all fields are not filled in and the submit button is hit, the new exercise w
 
 <br />
 
-Another validation check occurs when the Admin tries to create an exercise twice. There already exists a chest exercise named "Flat Barbell Bench Press" in the database. When the Admin attempts to create the exercise a second time, a red notification banner will appear in the top right hand corner stating "Exercise Name Already Exists!"
+3) Another validation check occurs when the Admin tries to create an exercise twice. There already exists a chest exercise named "Flat Barbell Bench Press" in the database. When the Admin attempts to create the exercise a second time, a red notification banner will appear in the top right hand corner stating "Exercise Name Already Exists!"
 
 <br />
 
@@ -50,7 +50,7 @@ Another validation check occurs when the Admin tries to create an exercise twice
 
 <br />
 
- If all fields are filled in and the exercise name is different from those in the database, then the exercise is created successfully
+4) If all fields are filled in and the exercise name is different from those in the database, then the exercise is created successfully
 
 <br />
 
@@ -58,7 +58,7 @@ Another validation check occurs when the Admin tries to create an exercise twice
 
 <br />
 
-On the side navbar click "Create Workout" --> "Upper Body" --> "Chest".  Scroll to the bottom and there is the new exercise we just created!
+5) On the side navbar click "Create Workout" --> "Upper Body" --> "Chest".  Scroll to the bottom and there is the new exercise we just created!
 
 <br />
 
