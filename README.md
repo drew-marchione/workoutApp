@@ -240,7 +240,7 @@ As long as the username doesn't exist, the user will be signed up successfully. 
 
 <br>
 
-Assuming the username jsmith@gmail.com hasn't been used yet, the user is created successfully. The first thing to notice is that the side navbar menu does not have the Admin dropdown tab. Using Aurelia's data-binding, whenever the username is anything other than "Admin", the Admin dropdown tab is hidden.  
+Assuming the username jsmith@gmail.com hasn't been used yet, the user is created successfully. The first thing to notice is that the sidebar menu does not have the Admin dropdown tab. Using Aurelia's data-binding, whenever the username is anything other than "Admin", the Admin dropdown tab is hidden.  
 
 <br />
 
@@ -248,7 +248,7 @@ Assuming the username jsmith@gmail.com hasn't been used yet, the user is created
 
 <br />
 
-Click on the "UserPage" link at the top of the website. Here is John Smith's own personalized workout page. Right now it is empty, but by clicking on the "Create Workout" tab John Smith can customize and add exercises to his UserPage.
+Click on the "UserPage" link at the top of the website. Here is John Smith's own personalized workout page. Right now it is empty, but by clicking on the "Create Workout" tab, John Smith can customize and add exercises to his UserPage.
 
 <br />
 
@@ -264,27 +264,11 @@ We can select a muscle group and scroll through the exercises associated with it
 
 <br/>
 
-
+Once you find an exercise you want to add to your workout click "customize". A modal will pop up which will allow you to enter a custom number of sets and reps for the exercise.
 
 <br />
 
 ![Screenshot](./images/chestWorkoutModal.png)
-
-<br />
-
-
-
-<br />
-
-![Screenshot](./images/chestWorkoutModalFilledIn.png)
-
-<br />
-
-
-
-<br />
-
-![Screenshot](./images/chestWorkoutModalSuccessful.png)
 
 <br />
 
@@ -301,6 +285,22 @@ We can select a muscle group and scroll through the exercises associated with it
 <br />
 
 ![Screenshot](./images/chestWorkoutModalUnsuccessful.png)
+
+<br />
+
+
+
+<br />
+
+![Screenshot](./images/chestWorkoutModalFilledIn.png)
+
+<br />
+
+
+
+<br />
+
+![Screenshot](./images/chestWorkoutModalSuccessful.png)
 
 <br />
 
