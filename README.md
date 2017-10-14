@@ -20,8 +20,6 @@ To sign up as Admin make sure the username = Admin. Of course for more security 
 
 ![Screenshot](./images/signUpAdmin.png)
 
-![Screenshot](./images/signUpAdminSuccessful.png)
-
 ![Screenshot](./images/adminLandingPage.png)
 
 ![Screenshot](./images/signIn.png)
