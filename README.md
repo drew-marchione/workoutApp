@@ -22,7 +22,7 @@ To sign up as Admin make sure the username = Admin. Of course for more security 
 
 ![Screenshot](./images/adminLandingPage.png)
 
-![Screenshot](./images/signIn.png)
+![Screenshot](./images/adminLogout.png)
 
 # Creating a Record
 
