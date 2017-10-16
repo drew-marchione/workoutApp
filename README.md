@@ -40,6 +40,10 @@ Before we start navigating around the website we will show a logout and Admin si
 
 ![Screenshot](./images/adminLogout.png)
 
+![Screenshot](./images/signInAdmin.png)
+
+![Screenshot](./images/adminLandingPage.png)
+
 # Creating a Record
 
 As Admin, you are given access to the basic CRUD operations
