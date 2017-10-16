@@ -12,6 +12,8 @@ A quick walkthrough of how the website flows is below with a more in-depth techn
 
 ## Signing Up as Admin
 
+![Screenshot](./images/signInPage.png)
+
 To sign up as Admin and have access to the create, read, update, and delete operations make sure the username = Admin and the password can be anything you want.
 
 ![Screenshot](./images/signUp.png)
