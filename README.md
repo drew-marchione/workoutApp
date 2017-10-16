@@ -12,11 +12,13 @@ A quick walkthrough of how the website flows is below with a more in-depth techn
 
 ## Signing Up as Admin
 
+This will teach you how to use YouFit as Admin and a regular user.
+
 So first things first, this is the sign in and sign up homepage of YouFit. Right now the sign in panel is visible, but if you click on "Create new account?" the panel will flip over to the sign up panel.
 
 ![Screenshot](./images/signInPage.png)
 
-To sign up as Admin and have access to the create, read, update, and delete operations make sure the username = Admin and the password can be anything you want.
+Since Admin has yet to be created, we must click "Create new account?" to sign up an Admin. To sign up as Admin and have access to the create, read, update, and delete operations make sure the username = Admin and the password can be anything you want.
 
 ![Screenshot](./images/signUp.png)
 
@@ -24,7 +26,7 @@ To sign up as Admin and have access to the create, read, update, and delete oper
 
 <br />
 
-As long as all fields are filled in and this is the first time creatng a user called "Admin", the sign up will be successful. The Admin is brought to the homepage of the website.
+As long as all fields are filled in and this is the first time creatng a user called "Admin", the sign up will be successful (We will look at sign in and sign up validation in greater detail later in this tutorial). The Admin is brought to the homepage of the website.
 
 <br />
 
@@ -32,7 +34,7 @@ As long as all fields are filled in and this is the first time creatng a user ca
 
 <br />
 
-Before we start navigating around the website we will show a logout and Admin sign in (note: different than sign up). Click the logout button at the top of the page. The Admin will be redirected back to the signIn/signUp page. Since the Admin's credentials now exist in the database, all the Admin has to do is sign in (note: different than sign up). 
+Before we start navigating around the website we will show a logout and Admin sign in. Click the logout button at the top of the page. The Admin will be redirected back to the sign in and sign up page. Since the Admin's credentials now exist in the database, all the Admin has to do is sign in (note: different than sign up). 
 
 <br />
 
