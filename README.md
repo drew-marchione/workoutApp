@@ -28,7 +28,7 @@ As long as all fields are filled in and this is the first time creatng a user ca
 
 <br />
 
-Before we start navigating around the website we will show a logout and Admin sign in (note: different than sign up).
+Before we start navigating around the website we will show a logout and Admin sign in (note: different than sign up). Click the logout button at the top of the page. The Admin will be redirected back to the signIn/signUp page. Since the Admin's credentials now exist in the database, all the Admin has to do is sign in (note: different than sign up). 
 
 <br />
 
