@@ -28,7 +28,7 @@ As long as all fields are filled in and this is the first time creatng a user ca
 
 <br />
 
-
+Before we start navigating around the website we will show a logout and Admin sign in (note: different than sign up).
 
 <br />
 
