@@ -26,7 +26,7 @@ Since Admin has yet to be created, we must click "Create new account?" to sign u
 
 <br />
 
-As long as all fields are filled in and this is the first time creatng a user called "Admin", the sign up will be successful (We will look at sign in and sign up validation in greater detail later in this tutorial). The Admin is brought to the homepage of the website.
+As long as all fields are filled in and this is the first time creatng a user called "Admin", the sign up will be successful (We will look at sign in and sign up validation in greater detail later in this tutorial). The Admin is brought to the homepage of the website. Notice the sidebar menu and how one of the tabs is called "Admin". This tab will only appear for the admin and never for any other user.
 
 <br />
 
