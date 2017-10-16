@@ -12,6 +12,8 @@ A quick walkthrough of how the website flows is below with a more in-depth techn
 
 ## Signing Up as Admin
 
+So first things first, this is the sign in and sign up homepage of YouFit. Right now the sign in panel is visible, but if you click on "Create new account?" the panel will flip over to the sign up panel.
+
 ![Screenshot](./images/signInPage.png)
 
 To sign up as Admin and have access to the create, read, update, and delete operations make sure the username = Admin and the password can be anything you want.
