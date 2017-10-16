@@ -12,15 +12,25 @@ A quick walkthrough of how the website flows is below with a more in-depth techn
 
 ## Signing Up as Admin
 
-To sign up as Admin make sure the username = Admin. Of course for more security you can change the conditional in the code 
-
-
+To sign up as Admin and have access to the create, read, update, and delete operations make sure the username = Admin and the password can be anything you want.
 
 ![Screenshot](./images/signUp.png)
 
 ![Screenshot](./images/signUpAdmin.png)
 
+<br />
+
+As long as all fields are filled in and this is the first time creatng a user called "Admin", the sign up will be successful. The Admin is brought to the homepage of the website.
+
+<br />
+
 ![Screenshot](./images/adminLandingPage.png)
+
+<br />
+
+
+
+<br />
 
 ![Screenshot](./images/adminLogout.png)
 
