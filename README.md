@@ -4,8 +4,6 @@
 
 Welcome to Youfit! A simple web application that allows users to customize and create their own workouts!
 
-My name is Drew and I built this application to demonstrate my ability to learn new technologies.
-
 The application's tech stack is: HTML/CSS, Bootstrap, Ecmascript6, Aurelia, Python, Python Flask, SQL
 
 A quick walkthrough of how the website flows is below with a more in-depth technical explanation coming soon.
