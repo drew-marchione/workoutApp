@@ -10,7 +10,7 @@ app.secret_key = 'why would I tell you my secret key?'
 mysql = MySQL()
 
 app.config['MYSQL_DATABASE_USER'] = 'root'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'hockey99'
+app.config['MYSQL_DATABASE_PASSWORD'] = 'password' # Whatever your SQL password is
 app.config['MYSQL_DATABASE_DB'] = 'MuscleGroups'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 
